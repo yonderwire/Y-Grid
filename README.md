@@ -35,10 +35,4 @@ $ git -b DIT clone https://github.com/yonderwire/Y-Grid.git
 
 # Go into the repository
 $ cd y_grid
-
-# Install dependencies
-$ npm install
-
-# Run the app
-$ npm start
 ```
