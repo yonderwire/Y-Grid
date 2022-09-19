@@ -9,7 +9,6 @@
   </br><img src="Logo_4.png" alt="Logo" width="80">
 </h2>
 
-
 The Y-Grid (Pikure Engine) app will allow users to make a low to medium budget films at their location. The purpose of this app is for users to join a community of contributors in film. The goal of this app is to consolidate every part of film making into a central hub.  
 
 ## Key Features 
@@ -36,3 +35,9 @@ $ git -b DIT clone https://github.com/yonderwire/Y-Grid.git
 # Go into the repository
 $ cd y_grid
 ```
+### Branch Notes
+- **DIT**		  : Initial code to pull
+- **UAT**  	  : For testing changes made in DIT with PROD code 
+- **PROD** 	  : Currently running in production
+- **Release** : Code for specified release
+
