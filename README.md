@@ -39,3 +39,11 @@ $ ls
 YGrid
 ```
 2. Import YGrid into IDE (Ex. STS)
+
+3. Make edits and push to DIT branch
+```bash
+$ git add .
+$ git commit -m "description of change" 
+$ git push origin DIT
+```
+4. In GitHub submit a pull request to merge to to UAT branch. 
