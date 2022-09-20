@@ -39,7 +39,7 @@ The Y-Grid (Pikure Engine) app will allow users to make a low to medium budget f
     # Verify YGrid is cloned
     $ ls 
     ...
-    YGrid
+    Y-Grid
     ```
 2. Import YGrid into IDE (Ex. STS)
 3. After making code changes, push to development branch
@@ -48,8 +48,4 @@ The Y-Grid (Pikure Engine) app will allow users to make a low to medium budget f
     $ git commit -m "description of change" 
     $ git push origin DIT
     ```
-4. In GitHub submit a pull request to merge to to testing (UAT) branch. 
-=======
-# Go into the repository
-$ cd y_grid
-```
+4. In GitHub submit a pull request to merge to to testing (UAT) branch.
