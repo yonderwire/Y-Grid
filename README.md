@@ -33,6 +33,9 @@ The Y-Grid (Pikure Engine) app will allow users to make a low to medium budget f
 # Clone this repository
 $ git -b DIT clone https://github.com/yonderwire/Y-Grid.git
 
-# Go into the repository
-$ cd y_grid
+# Verify YGrid is cloned
+$ ls 
+...
+YGrid
 ```
+2. Import YGrid into IDE (Ex. STS)
