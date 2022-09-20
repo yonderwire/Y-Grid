@@ -1,7 +1,7 @@
 <p align="center">
   <a href="#key-features">Key Features</a> &nbsp; | &nbsp;
-  <a href="#getting-started">Getting Started</a> &nbsp; | &nbsp;
-  <a href="#">Docs</a> 
+  <a href="#branches">Branches</a> &nbsp; | &nbsp;
+  <a href="#getting-started">Getting Started</a> 
 </p>
 <h2 align="center">
   <img src="Monkey-Color-1.png" alt="Logo" width="200">
@@ -26,24 +26,28 @@ The Y-Grid (Pikure Engine) app will allow users to make a low to medium budget f
   - Config Management `Archaius`
   - Distributed Tracing & Logging  `Splunk`
 
+## Branches
+- **DIT**		  : Development branch
+- **UAT**  	  : Testing branch 
+- **PROD** 	  : Currently running in production
+- **Release** : Code for specified release
+
 ## Getting Started
-1. Clone and run this application from the command line:
+1. Clone development branch :
+    ```bash
+    # Clone repository
+    $ git -b DIT clone https://github.com/yonderwire/Y-Grid.git
 
-```bash
-# Clone this repository
-$ git -b DIT clone https://github.com/yonderwire/Y-Grid.git
-
-# Verify YGrid is cloned
-$ ls 
-...
-YGrid
-```
+    # Verify YGrid is cloned
+    $ ls 
+    ...
+    YGrid
+    ```
 2. Import YGrid into IDE (Ex. STS)
-
-3. Make edits and push to DIT branch
-```bash
-$ git add .
-$ git commit -m "description of change" 
-$ git push origin DIT
-```
-4. In GitHub submit a pull request to merge to to UAT branch. 
+3. After making code changes, push to development branch
+    ```bash
+    $ git add .
+    $ git commit -m "description of change" 
+    $ git push origin DIT
+    ```
+4. In GitHub submit a pull request to merge to to testing (UAT) branch. 
