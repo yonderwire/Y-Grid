@@ -18,6 +18,12 @@ public class PrimaryStaff{
 	private int primaryId;
 	@Column(name="producers")
 	private String producers;
+	@Column(name="cinematogs")
+	private String cinematogs;
+	@Column(name="directors")
+	private String directors;
+	@Column(name="actors")
+	private String actors;
 	@OneToOne
     @PrimaryKeyJoinColumn(name = "primary_id")
     Staff staff;
@@ -49,11 +55,35 @@ public class PrimaryStaff{
 		this.producers = producers;
 	}
 
+	public String getCinematogs(){
+		return cinematogs;
+	}
+
+	public void setCinematogs(String cinematogs){
+		this.cinematogs = cinematogs;
+	}
+
+	public String getDirectors(){
+		return directors;
+	}
+
+	public void setDirectors(String dicrectors){
+		this.directors = dicrectors;
+	}
+
+	public String getActors(){
+		return actors;
+	}
+
+	public void setActors(String actors){
+		this.actors = actors;
+	}
+
 
 
 	@Override
 	public String toString() {
-		return "PrimaryStaff [primaryId=" + primaryId + ", producers=" + producers + "]";
+		return "PrimaryStaff [primaryId=" + primaryId + ", producers=" + producers + ", cinematogs="+cinematogs +", directors=" +directors+ ", actors="+actors +"]";
 	}
 	
 
