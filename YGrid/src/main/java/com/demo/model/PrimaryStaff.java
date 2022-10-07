@@ -32,7 +32,6 @@ public class PrimaryStaff{
 		super();
 	}
 	
-
 	public PrimaryStaff(int primaryId, String producers) {
 		super();
 		this.primaryId = primaryId;
@@ -78,7 +77,6 @@ public class PrimaryStaff{
 	public void setActors(String actors){
 		this.actors = actors;
 	}
-
 
 
 	@Override
